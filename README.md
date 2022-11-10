@@ -1,9 +1,18 @@
-Create a Form builder application
-/ - Displays all the forms with the title
+# Create a Form builder application
+```
+- Displays all the forms with the title
+ ```
+```
 /form/create -> User should be able to create a form
+```
+```
 /form/id/edit -> User should be able to edit the form
+```
+```
 /form/id -> User can view the form
-Create Form:
+```
+## Create Form:
+```
 Need to provide a create Form Button in the home screen that navigates to create page
 An empty form needs to be displayed
 It should allow to edit the Title of the Form.
@@ -16,18 +25,27 @@ Inputs should display in read only mode
 Should allow maximum of 20 inputs
 Should allow deleting the input from the form
 Should provide a button to save the form in the Database
-Edit From:
+```
+ ## Edit From:
+ ```
 Should be able to edit the previously created form.
-View Form:
+```
+ ## View Form:
+ ```
 User should be able to view the entire form with the exact same structure that was displayed during creation.
 Should allow user to enter data into the inputs. All the type validations must work
 A submit button must be provided which allows user to submit the form
 Storing the responses from the form is optional
-Bonus -
+```
+### Bonus -
+```
 Can provide an option to arrange the inputs in the form while creating and editing the form using drag and drop
 Can provide an option to group inputs into sections
-Technologies:
+```
+### Technologies:
+```
 Frontend - Reactjs (Not allowed to use any third party library except for Drag and Drop)
 Design - anything of your choice
 Backend - Sailsjs/Expressjs
 Database - Mongodb
+```
